@@ -1,0 +1,15 @@
+if TARGET_ROC_RK3328_CC
+
+config SYS_BOARD
+	default "roc_rk3328_cc"
+
+config SYS_VENDOR
+	default "rockchip"
+
+config SYS_CONFIG_NAME
+	default "roc_rk3328_cc"
+
+config BOARD_SPECIFIC_OPTIONS # dummy
+	def_bool y
+
+endif
